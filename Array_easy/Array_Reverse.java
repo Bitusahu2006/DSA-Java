@@ -8,7 +8,7 @@ public class Array_Reverse {
             arr[s] = arr[e];
             arr[e] = temp;
 
-            s++;      
+            s++;
             e--;      
         }
     }
