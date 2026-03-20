@@ -1,5 +1,6 @@
 public class print_Subarr {
     public static void Subarray(int arr[]){
+        int MaxSub=0;
         int n=arr.length;
         for(int i=0; i<n; i++){
             int start=i;
@@ -7,8 +8,12 @@ public class print_Subarr {
                int end=j;
                for(int k=start; k<=end; k++){
                 System.out.print(arr[k]+" ");
+                
+
                }
                System.out.println();
+               System.out.print(MaxSub);
+               
             }
             System.out.println();
             
