@@ -4,8 +4,10 @@ public class Set_ith_Bit {
 
         int value= n|bitMarks;
         return value;
+        
+        
     }
     public static void main(String[] args){
-        System.out.print(setIthBit(10,2));
+        System.out.print(setIthBit(20,2));
     }
 }
